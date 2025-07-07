@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #2b7a78;
+}
+
+.task-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.task-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.task-form button {
+  padding: 0.5rem 1rem;
+  background: #2b7a78;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background: #205d5a;
+}
+
+.task-lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.task-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-card.finished {
+  background: #e0ffe0;
+  text-decoration: line-through;
+}
+
+.task-info {
+  margin-bottom: 0.5rem;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.task-actions button {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-actions button:hover {
+  opacity: 0.9;
+}
+
+.task-actions .delete {
+  background: #e63946;
+  color: white;
+}
+
+.task-actions .delete:hover {
+  background: #c9182b;
+}
